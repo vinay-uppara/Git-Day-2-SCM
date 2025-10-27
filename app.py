@@ -5,7 +5,7 @@ app = Flask(__name__)
 # Home route
 @app.route('/')
 def home():
-    return "Welcome to My Flask Application!"
+    return "Welcome to My Home Naresh it!"
 
 # Example API route
 @app.route('/api/greet', methods=['GET'])
